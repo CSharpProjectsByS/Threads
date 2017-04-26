@@ -1,0 +1,9 @@
+D:\Programowanie\VisualProjects\ThreadsLab\ThreadsLab\bin\Debug\ThreadsLab.exe.config
+D:\Programowanie\VisualProjects\ThreadsLab\ThreadsLab\bin\Debug\ThreadsLab.exe
+D:\Programowanie\VisualProjects\ThreadsLab\ThreadsLab\bin\Debug\ThreadsLab.pdb
+D:\Programowanie\VisualProjects\ThreadsLab\ThreadsLab\obj\Debug\ThreadsLab.csprojResolveAssemblyReference.cache
+D:\Programowanie\VisualProjects\ThreadsLab\ThreadsLab\obj\Debug\ThreadsLab.Form1.resources
+D:\Programowanie\VisualProjects\ThreadsLab\ThreadsLab\obj\Debug\ThreadsLab.Properties.Resources.resources
+D:\Programowanie\VisualProjects\ThreadsLab\ThreadsLab\obj\Debug\ThreadsLab.csproj.GenerateResource.Cache
+D:\Programowanie\VisualProjects\ThreadsLab\ThreadsLab\obj\Debug\ThreadsLab.exe
+D:\Programowanie\VisualProjects\ThreadsLab\ThreadsLab\obj\Debug\ThreadsLab.pdb
