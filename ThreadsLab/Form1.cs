@@ -155,8 +155,7 @@ namespace ThreadsLab
             for (int i = 0; i < n; i++)
             {
                 int tmp = rnd.Next(0, 1000);
-                item1.Save(tmp);
-                Thread.Sleep(0);
+                item1.SaveSleep(tmp);
             }
         }
 
@@ -169,7 +168,6 @@ namespace ThreadsLab
                 {
                     p++;
                 }
-                Thread.Sleep(0);
             }
 
             float correctResult = (float)p / n * 100;
@@ -185,19 +183,21 @@ namespace ThreadsLab
                 for (int i = 0; i < n; i++)
                 {
                     int tmp = rnd.Next(0, 1000);
-                    item1.Save(tmp);
+                    item1.SaveLock(tmp, locker);
                 }
             }
         }
 
         private void CheckCorrectionOfValuesCaseLock(int n)
         {
-            lock (locker)
-            {
                 int p = 0;
                 for (int i = 0; i < n; i++)
                 {
-                    if (item1.CheckCorrect())
+                    bool correct;
+
+                    correct = item1.CheckCorrectLock(locker);
+                    
+                    if (correct)
                     {
                         p++;
                     }
@@ -206,10 +206,6 @@ namespace ThreadsLab
                 float correctResult = (float)p / n * 100;
 
                 LockCorrectValue = correctResult.ToString() + "%";
-            }
-            
         }
-
-
     }
 }
