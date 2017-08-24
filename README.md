@@ -3,7 +3,7 @@
 ## Tu z kolei sprawdzamy poprawność zapisywania danych przez dwa wątki jeden zapisuje drugi odczytuje.
 
 ### Scenariusz jest następujący tworzymy klasę: która posiada 2 zmienne jedna typu int druga string. Za każdym razem gdy zapisujemy
-###do tej klasy jakąś liczbę zapisujemy ją w tych dwóch polach (int, string).
+### do tej klasy jakąś liczbę zapisujemy ją w tych dwóch polach (int, string).
 
 ### Jeden wątek zapisuje, drugi sprawdza poprawność.
 
